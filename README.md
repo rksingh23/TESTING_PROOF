@@ -5,6 +5,7 @@ Explain: In very simple steps and a basic example expalin how to perform Testing
 # TESTING_PROOF_1 *TESTING BY CONTRADICTION
 Use proof by contradiction to prove that the FindMax function always finds the maximum value in the input vector.
 
+```cpp
 int FindMax(std::vector<int> &inputs) {
    if (inputs.size() == 0) {
        return -1;
@@ -17,6 +18,7 @@ int FindMax(std::vector<int> &inputs) {
    }
    return result;
 }
+```
   
 Answer: The proposition to be proved is that "the FindMax function always finds the maximum value in the input vector." So                                                        
 Step 1. Let's assume this to be false. i.e "the FindMax function NEVER finds the maximum value in the input vector."                                                            
@@ -30,6 +32,7 @@ Step 5. Concluding, we have proved that "the FindMax function always finds the m
 
 Use proof by induction to prove that the FindMax function always finds the maximum value in the input vector.
 
+```cpp
 int FindMax(std::vector<int> &inputs) {
    if (inputs.size() == 0) {
        return -1;
@@ -42,6 +45,7 @@ int FindMax(std::vector<int> &inputs) {
    }
    return result;
 }
+```
   
 Answer: The proposition to be proved is that "the FindMax function always finds the maximum value in the input vector." So                                                        
 Step 1. Let's assume this to be true. i.e "the FindMax function always finds the maximum value in the input vector."                                                            
